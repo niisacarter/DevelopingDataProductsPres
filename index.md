@@ -1,0 +1,49 @@
+---
+title       : Developing Data Products
+subtitle    : View the Normal Distribution
+author      : Niisa Carter
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Objective:
+
+This was a peer assessed assignment with two parts. 
+
+First, a Shiny application was created and deployed on Rstudio's servers. 
+
+Second, Slidify or Rstudio Presenter was used to prepare a reproducible pitch
+presentation about the application.  
+
+
+--- .class #id 
+## Shiny Application - Description
+
+This app helps to depict a normal distribution histogram for a desired range of numbers between 1 and 1000.
+
+It can be found here:  
+
+https://niisacarter.shinyapps.io/NormDistribution/r
+
+The ui.R and server.R source code can be found here:  
+
+https://github.com/niisacarter/DevelopingDataProducts
+
+--- .class #id 
+
+## Shiny Application - Input & Output
+
+###  Input:  Range of Numbers 
+
+Simple move the slide to the target range and press Submit
+
+### Output:  Histogram
+
+A histrogram depicting the normal distribution will be displayed.  For example: 
+
+<img align="middle" src="histexample.png" />
